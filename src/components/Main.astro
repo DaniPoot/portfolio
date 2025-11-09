@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import profileImage from '../images/danielpoot.profile.jpeg';
+---
+<main class="text-white sm:px-[55px] sm:py-[50px] m-auto">
+  <div class="overflow-hidden w-25 sm:w-30 rounded-[50%] border-3">
+    <Image src={profileImage} alt="Daniel Poot Profile Picture." />
+  </div>
+  <div class="my-[50px]">
+    <h1 class="text-4xl my-[50px]">Hi, I'm <span class="text-[#CFBFF7]">Daniel Poot</span></h1>
+    <p class="lg:max-w-[50%] sm:text-2xl">Front-End Software Engineer specializing in building modern, responsive web applications using Vue, React, and TypeScript. I create efficient interfaces and integrations that improve user experience and streamline workflows. </p>
+  </div>
+  <div>
+    <h2 class="text-[#CFBFF7] font-bold uppercase">Skills</h2>
+    <ul class="flex flex-row items-center flex-wrap sm:flex-no-wrap gap-[30px] pt-[25px]">
+      <li>Javascript</li>
+      <li>Vue</li>
+      <li>React</li>
+      <li>CSS</li>
+      <li>Node</li>
+      <li>Typescript</li>
+    </ul>
+  </div>
+</main>
